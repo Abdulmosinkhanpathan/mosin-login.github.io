@@ -2,7 +2,7 @@
 $servername = "localhost"; // replace with your server name
 $username = $_POST["system"]; // get the username from the form
 $password = $_POST["mosin2003"]; // get the password from the form
-$dbname = "localhost"; // replace with your database name
+$dbname = "Oracle"; // replace with your database name
 
 // Create connection
 $conn = oci_connect($username, $password, "//".$servername."/".$dbname);
